@@ -23,7 +23,7 @@ def main():
     df = get_data()
 
     st.title("SpaceX launch Dashboard")
-    image = Image.open('C:/Users/DELL/Desktop/streamlit deployed/rocket_launch.jpg')
+    image = Image.open('rocket_launch.jpg')
     st.image(image)
     st.sidebar.markdown("## WINNING SPACE RACE WITH DATA SCIENCE")
     st.sidebar.markdown("""The understanding of harnessing data has revealed lots of insights that has 
